@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FG9CN621L4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WW97XG2CXZ');
+  </script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6a02cd809226831c3819bdf5/1jodf50m4';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','anonymous');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edelyn Y. Malillin | IT Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #d946a6;
+      --primary-light: #ec4899;
+      --primary-lighter: #f472b6;
+      --accent: #c2185b;
+      --accent-light: #e91e63;
+      --accent-lighter: #ff69b4;
+      --secondary: #a855f7;
+      --secondary-light: #d946ef;
+      --bg: #fef9f5;
+      --bg-alt: #fff5f9;
+      --bg-card: #ffffff;
+      --text: #5a1d4d;
+      --text-muted: #7c3a62;
+      --text-light: #a06090;
+      --border: #f0d5e8;
+      --shadow: rgba(217, 70, 166, 0.08);
+      --shadow-strong: rgba(217, 70, 166, 0.15);
+      --gold: #fdbf60;
+      --rose: #fce7f3;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    .tawk-frame-iframe,
+    .tawk-chat-iframe {
+      z-index: 10001 !important;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent-light) 50%, var(--secondary-light) 100%);
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '✨';
+      position: absolute;
+      font-size: 200px;
+      opacity: 0.1;
+      top: -50px;
+      right: -50px;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .hero::after {
+      content: '💎';
+      position: absolute;
+      font-size: 150px;
+      opacity: 0.1;
+      bottom: -30px;
+      left: -30px;
+      animation: float 8s ease-in-out infinite reverse;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(20px); }
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 3.5rem);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      z-index: 1;
+      position: relative;
+      letter-spacing: -0.5px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hero p {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: rgba(255, 255, 255, 0.95);
+      z-index: 1;
+      position: relative;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(to bottom, var(--bg), rgba(255, 245, 249, 0.95));
+      border-bottom: 2px solid var(--primary-lighter);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      z-index: 100;
+      box-shadow: 0 4px 15px var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      position: relative;
+      padding: 0.5rem 0;
+    }
+
+    .nav a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: linear-gradient(to right, var(--primary), var(--secondary-light));
+      transition: width 0.3s ease;
+      border-radius: 3px;
+    }
+
+    .nav a:hover { color: var(--primary); }
+    .nav a:hover::after { width: 100%; }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .container h2 {
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+      color: var(--primary);
+      font-weight: 700;
+      font-family: 'Playfair Display', serif;
+      border-bottom: 3px solid var(--gold);
+      padding-bottom: 1rem;
+      display: inline-block;
+      position: relative;
+    }
+
+    .container h2::before {
+      content: '✨';
+      margin-right: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    .container p {
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .skills-grid span {
+      background: linear-gradient(135deg, var(--rose) 0%, rgba(244, 114, 182, 0.1) 100%);
+      padding: 1.25rem;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 600;
+      border: 2px solid var(--primary-lighter);
+      transition: all 0.3s ease;
+      cursor: default;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .skills-grid span::before {
+      content: '💜';
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.5rem;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+
+    .skills-grid span:hover {
+      background: linear-gradient(135deg, var(--primary-lighter) 0%, var(--secondary-light) 100%);
+      border-color: var(--primary);
+      box-shadow: 0 8px 20px var(--shadow-strong);
+      color: white;
+      transform: translateY(-4px);
+    }
+
+    .skills-grid span:hover::before { opacity: 1; top: 5px; }
+
+    .certificate-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .certificate-grid span {
+      background: linear-gradient(135deg, var(--rose) 0%, rgba(236, 72, 153, 0.1) 100%);
+      padding: 2rem;
+      border-radius: 12px;
+      border: 2px solid var(--primary-lighter);
+      font-weight: 600;
+      text-align: center;
+      color: var(--text-muted);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .certificate-grid span::before {
+      content: '🎓';
+      display: block;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .certificate-grid span:hover {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary-light) 100%);
+      border-color: var(--primary);
+      box-shadow: 0 8px 20px var(--shadow-strong);
+      color: white;
+      transform: translateY(-4px);
+    }
+
+    .contact-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      transition: all 0.3s ease;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 2px;
+    }
+
+    .contact-link:hover {
+      color: var(--secondary-light);
+      border-bottom-color: var(--secondary-light);
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: linear-gradient(135deg, white 0%, var(--rose) 100%);
+      padding: 2rem;
+      border-radius: 15px;
+      border: 2px solid var(--primary-lighter);
+      cursor: pointer;
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 15px var(--shadow);
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, var(--secondary-light), transparent);
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: var(--secondary-light);
+      box-shadow: 0 12px 30px var(--shadow-strong);
+    }
+
+    .card:hover::before { opacity: 0.2; top: -20%; right: -20%; }
+
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+      font-weight: 700;
+      font-family: 'Playfair Display', serif;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card p {
+      color: var(--text-light);
+      font-size: 0.9rem;
+      font-weight: 500;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card::after {
+      content: '💖';
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 1.5rem;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover::after {
+      opacity: 1;
+      animation: heartBeat 0.6s ease-in-out;
+    }
+
+    @keyframes heartBeat {
+      0%, 100% { transform: scale(1); }
+      25% { transform: scale(1.3); }
+      50% { transform: scale(1.1); }
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(90, 29, 77, 0.7);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background: linear-gradient(135deg, white 0%, var(--rose) 100%);
+      border-radius: 20px;
+      padding: 2.5rem;
+      max-width: 900px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      position: relative;
+      animation: slideUp 0.3s ease-out;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      border: 2px solid var(--primary-lighter);
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-content img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      border: 3px solid var(--primary-lighter);
+      box-shadow: 0 8px 20px var(--shadow-strong);
+      transition: opacity 0.2s ease;
+    }
+
+    .modal-content h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+      font-weight: 700;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .modal-content p {
+      color: var(--text-muted);
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary-light) 100%);
+      color: white;
+      border: none;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px var(--shadow-strong);
+    }
+
+    .modal-close:hover { transform: scale(1.1) rotate(90deg); }
+
+    .carousel-controls {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .carousel-controls button {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary-light) 100%);
+      color: white;
+      border: none;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      box-shadow: 0 4px 12px var(--shadow-strong);
+    }
+
+    .carousel-controls button:hover { transform: scale(1.1); }
+
+    .img-counter {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      font-weight: 500;
+      min-width: 40px;
+      text-align: center;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    footer {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary-light) 100%);
+      text-align: center;
+      padding: 2.5rem;
+      color: white;
+      border-top: 3px solid var(--gold);
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    footer::before { content: '💖 '; }
+    footer::after { content: ' 💖'; }
+
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: var(--rose); }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(to bottom, var(--primary), var(--secondary-light));
+      border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .nav { gap: 1.5rem; padding: 1rem; flex-wrap: wrap; }
+      .nav a { font-size: 0.9rem; }
+      .container { padding: 2.5rem 1rem; }
+      .container h2 { font-size: 1.5rem; margin-bottom: 1.5rem; }
+      .project-grid { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+      .hero { padding: 4rem 1rem; }
+      .hero h1 { font-size: 2rem; }
+      .modal-content { padding: 1.5rem; }
+    }
+
+    @media (max-width: 480px) {
+      .nav { gap: 1rem; padding: 0.75rem; }
+      .nav a { font-size: 0.85rem; }
+      .hero h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+      .hero p { font-size: 0.9rem; }
+      .container h2 { font-size: 1.25rem; }
+      .card h3 { font-size: 1.1rem; }
+      .modal-content h3 { font-size: 1.4rem; }
+      .container h2::before { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>✨ Edelyn Y. Malillin ✨</h1>
+  <p>IT Professional • Full Stack Developer</p>
+</header>
+
+<nav class="nav">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#certificate">Certificate</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="container reveal">
+  <h2>About Me</h2>
+  <p>Passionate about turning data into meaningful insights that inspire smarter decisions and drive innovation. Dedicated to uncovering patterns, solving problems, and transforming raw information into impactful stories that create real value.</p>
+</section>
+
+<section id="skills" class="container reveal">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <span>Data Analysis</span>
+    <span>Data Visualization</span>
+    <span>SQL</span>
+    <span>Microsoft Excel</span>
+    <span>Power BI</span>
+    <span>Business Intelligence</span>
+  </div>
+</section>
+
+<section id="certificate" class="container reveal">
+  <h2>Professional Credentials</h2>
+  <div class="certificate-grid">
+    <span>National Certificate II in IT<br>Philippine College of Science and Technology<br>Valid through 2029</span>
+  </div>
+</section>
+
+<section id="projects" class="container reveal">
+  <h2>Featured Projects</h2>
+  <div class="project-grid">
+
+    <div class="card" onclick="openModal(
+      ['assets/Payroll/payroll_dashboard.jpg','assets/Payroll/payroll_employees.jpg','assets/Payroll/payroll_process.jpg','assets/Payroll/payroll_reports.jpg','assets/Payroll/payroll_settings.jpg'],
+      'Payroll Management System',
+      'Desktop application designed for comprehensive payroll administration. Features include employee records management, automated salary computation, salary advance processing, and integrated benefits tracking.'
+    )">
+      <h3>Payroll System</h3>
+      <p>Desktop Application • Payroll Processing</p>
+    </div>
+
+    <div class="card" onclick="openModal(
+      ['assets/Mers/login_mers.jpg','assets/Mers/physician_home.jpg','assets/Mers/physician_dashboard.jpg','assets/Mers/user_dashboard.jpg'],
+      'Medical Records System',
+      'Web-based student medical record management platform with appointment scheduling, medical history tracking, and secure data storage. Built with modern technologies for efficient healthcare administration.'
+    )">
+      <h3>Medical Record System</h3>
+      <p>Web Application • Healthcare Management</p>
+    </div>
+
+    <div class="card" onclick="openModal(
+      [],
+      'Mobile Application',
+      'Cross-platform mobile application developed with Flutter framework. Features comprehensive song management functionality with secure authentication using OTP verification system.'
+    )">
+      <h3>Music Management App</h3>
+      <p>Mobile Application • Flutter</p>
+    </div>
+
+    <div class="card" onclick="openModal(
+      ['assets/Pos/cashier.jpg','assets/Pos/inventory.jpg','assets/Pos/orders.jpg','assets/Pos/reports.jpg','assets/Pos/users.jpg','assets/Pos/roles.jpg'],
+      'Point of Sale System',
+      'Enterprise-grade desktop POS application developed using modern technologies. Includes inventory management, sales tracking, comprehensive reporting, user management, and role-based access control.'
+    )">
+      <h3>POS System</h3>
+      <p>Desktop Application • Tauri, TypeScript, Python</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="container reveal">
+  <h2>Get In Touch</h2>
+  <p style="margin-bottom: 2rem;">I'm available for professional inquiries, collaboration, and project discussions.</p>
+  <p style="margin-bottom: 1rem;">
+    <strong>Phone:</strong> <a href="tel:+639197762601" class="contact-link">+63 919-776-2601</a>
+  </p>
+  <p style="margin-bottom: 1rem;">
+    <strong>Email:</strong>
+    <a href="mailto:malillinedelyn0@gmail.com?subject=Professional Inquiry" id="contactBtn" class="contact-link">
+      malillinedelyn0@gmail.com
+    </a>
+  </p>
+  <p>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/malillinedelyn0-hash" target="_blank" rel="noopener noreferrer" class="contact-link" id="githubBtn">
+      github.com/malillinedelyn0-hash
+    </a>
+  </p>
+</section>
+
+<footer>
+  &copy; 2026 Edelyn Y. Malillin. All rights reserved. | IT Professional Portfolio
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal" onclick="closeModal(event)">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="forceCloseModal()" aria-label="Close modal">✕</button>
+    <img id="modalImg" alt="Project screenshot" style="display: none;">
+    <div class="carousel-controls" id="carouselControls" style="display: none;">
+      <button onclick="prevImg(event)" aria-label="Previous image">&#8249;</button>
+      <span class="img-counter" id="imgCounter"></span>
+      <button onclick="nextImg(event)" aria-label="Next image">&#8250;</button>
+    </div>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById("modal");
+  const modalImg = document.getElementById("modalImg");
+  const modalTitle = document.getElementById("modalTitle");
+  const modalDesc = document.getElementById("modalDesc");
+  const carouselControls = document.getElementById("carouselControls");
+  const imgCounter = document.getElementById("imgCounter");
+
+  let images = [];
+  let current = 0;
+
+  function updateCounter() {
+    if (images.length > 1) {
+      imgCounter.textContent = (current + 1) + ' / ' + images.length;
+    }
+  }
+
+  function openModal(imgData, title, desc) {
+    images = Array.isArray(imgData) ? imgData : (imgData ? [imgData] : []);
+    current = 0;
+
+    if (images.length > 0) {
+      modalImg.src = images[0];
+      modalImg.style.display = 'block';
+    } else {
+      modalImg.style.display = 'none';
+    }
+
+    modalTitle.textContent = title || '';
+    modalDesc.textContent = desc || '';
+    carouselControls.style.display = images.length > 1 ? 'flex' : 'none';
+    updateCounter();
+
+    modal.style.display = "flex";
+    modal.style.opacity = "1";
+    document.body.style.overflow = 'hidden';
+  }
+
+  function nextImg(e) {
+    e.stopPropagation();
+    if (images.length <= 1) return;
+    modalImg.style.opacity = '0';
+    setTimeout(() => {
+      current = (current + 1) % images.length;
+      modalImg.src = images[current];
+      modalImg.style.opacity = '1';
+      updateCounter();
+    }, 200);
+  }
+
+  function prevImg(e) {
+    e.stopPropagation();
+    if (images.length <= 1) return;
+    modalImg.style.opacity = '0';
+    setTimeout(() => {
+      current = (current - 1 + images.length) % images.length;
+      modalImg.src = images[current];
+      modalImg.style.opacity = '1';
+      updateCounter();
+    }, 200);
+  }
+
+  function closeModal(e) {
+    if (e.target === modal) forceCloseModal();
+  }
+
+  function forceCloseModal() {
+    modal.style.opacity = "0";
+    setTimeout(() => {
+      modal.style.display = "none";
+      document.body.style.overflow = 'auto';
+    }, 300);
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (modal.style.display === 'flex') {
+      if (e.key === 'Escape') forceCloseModal();
+      if (e.key === 'ArrowRight') nextImg(e);
+      if (e.key === 'ArrowLeft') prevImg(e);
+    }
+  });
+
+  const reveals = document.querySelectorAll(".reveal");
+
+  function revealOnScroll() {
+    reveals.forEach(el => {
+      const top = el.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) el.classList.add("active");
+    });
+  }
+
+  document.querySelectorAll('.nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  document.getElementById("contactBtn").addEventListener("click", () => {
+    gtag('event', 'contact_button_click', { event_category: 'engagement', event_label: 'Email Contact Click' });
+  });
+
+  document.getElementById("githubBtn").addEventListener("click", () => {
+    gtag('event', 'github_click', { event_category: 'engagement', event_label: 'GitHub Profile Click' });
+  });
+
+  window.addEventListener("scroll", revealOnScroll);
+  window.addEventListener("load", revealOnScroll);
+  revealOnScroll();
+</script>
+
+</body>
+</html>
